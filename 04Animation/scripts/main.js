@@ -20,7 +20,7 @@ if(myOtherBox.object3D.rotation.x <= -100){ //als de rotatie op de x-as kleiner 
 }
 
 if(myOtherBox.object3D.rotation.y <= 100){ //als de rotatie op de y-as kleiner is of gelijk is aan 100
-  myOtherBox.object3D.rotation.y * 0.05; //de rotatie gaat omkeren en langzamer op de y-as
+  myOtherBox.object3D.rotation.y * 0.05; //de rotatie gaat sneller op de y-as
 }
   
 setInterval(spin, 16); //equivalent to 60 fps
