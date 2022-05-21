@@ -19,5 +19,9 @@ if(myOtherBox.object3D.rotation.x <= -100){
   myOtherBox.object3D.rotation.x -= rotationSpeedX;
 }
 
+if(myOtherBox.object3D.rotation.y <= 100){
+  myOtherBox.object3D.rotation.y -= 0.01;
+}
+  
 setInterval(spin, 16); //equivalent to 60 fps
 
