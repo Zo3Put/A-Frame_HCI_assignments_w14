@@ -1,7 +1,7 @@
 
 
 // // changing individual properties with code and using setInterval
-var rotationSpeed = 0.50;
+var rotationSpeed = 0.10;
 var scaleUp = 5;
 var myOtherBox = document.getElementById('myOtherBox');
 
